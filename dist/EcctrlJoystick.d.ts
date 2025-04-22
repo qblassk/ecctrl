@@ -11,7 +11,7 @@ declare module "@react-three/fiber" {
     interface ThreeElements {
         mesh: {
             geometry?: THREE.BufferGeometry | THREE.CylinderGeometry;
-            material?: THREE.Material | THREE.MeshNormalMaterial;
+            material?: THREE.Material | THREE.MeshStandardMaterial;
             [key: string]: any;
         };
     }

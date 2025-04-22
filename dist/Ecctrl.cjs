@@ -593,15 +593,27 @@ const JoystickComponents = (props) => {
     []
   );
   const joystickBaseMaterial = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.3 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.3,
+      color: "#3d5050"
+    }),
     []
   );
   const joystickStickMaterial = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.3 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.3,
+      color: "#3d5050"
+    }),
     []
   );
   const joystickHandleMaterial = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.7 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.7,
+      color: "#3d5050"
+    }),
     []
   );
   const setJoystick = useJoystickControls((state) => state.setJoystick);
@@ -749,27 +761,51 @@ const ButtonComponents = ({
     []
   );
   const buttonBaseMaterial = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.3 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.3,
+      color: "#3d5050"
+    }),
     []
   );
   const buttonTop1Material = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.5,
+      color: "#3d5050"
+    }),
     []
   );
   const buttonTop2Material = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.5,
+      color: "#3d5050"
+    }),
     []
   );
   const buttonTop3Material = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.5,
+      color: "#3d5050"
+    }),
     []
   );
   const buttonTop4Material = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.5,
+      color: "#3d5050"
+    }),
     []
   );
   const buttonTop5Material = React.useMemo(
-    () => new THREE__namespace.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () => new THREE__namespace.MeshStandardMaterial({
+      transparent: true,
+      opacity: 0.5,
+      color: "#3d5050"
+    }),
     []
   );
   const buttonDiv = document.querySelector("#ecctrl-button");

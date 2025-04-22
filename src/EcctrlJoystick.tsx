@@ -24,7 +24,7 @@ declare module "@react-three/fiber" {
   interface ThreeElements {
     mesh: {
       geometry?: THREE.BufferGeometry | THREE.CylinderGeometry;
-      material?: THREE.Material | THREE.MeshNormalMaterial;
+      material?: THREE.Material | THREE.MeshStandardMaterial;
       [key: string]: any;
     };
   }
@@ -81,15 +81,30 @@ const JoystickComponents = (props: EcctrlJoystickProps) => {
    * Joystick component materials
    */
   const joystickBaseMaterial = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.3 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.3,
+        color: "#3d5050",
+      }),
     []
   );
   const joystickStickMaterial = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.3 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.3,
+        color: "#3d5050",
+      }),
     []
   );
   const joystickHandleMaterial = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.7 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.7,
+        color: "#3d5050",
+      }),
     []
   );
 
@@ -263,27 +278,57 @@ const ButtonComponents = ({
    * Button component materials
    */
   const buttonBaseMaterial = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.3 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.3,
+        color: "#3d5050",
+      }),
     []
   );
   const buttonTop1Material = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.5,
+        color: "#3d5050",
+      }),
     []
   );
   const buttonTop2Material = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.5,
+        color: "#3d5050",
+      }),
     []
   );
   const buttonTop3Material = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.5,
+        color: "#3d5050",
+      }),
     []
   );
   const buttonTop4Material = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.5,
+        color: "#3d5050",
+      }),
     []
   );
   const buttonTop5Material = useMemo(
-    () => new THREE.MeshNormalMaterial({ transparent: true, opacity: 0.5 }),
+    () =>
+      new THREE.MeshStandardMaterial({
+        transparent: true,
+        opacity: 0.5,
+        color: "#3d5050",
+      }),
     []
   );
 
