@@ -603,7 +603,7 @@ const JoystickComponents = (props) => {
   const joystickStickMaterial = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.3,
+      opacity: 0,
       color: "#3d5050"
     }),
     []
@@ -611,7 +611,7 @@ const JoystickComponents = (props) => {
   const joystickHandleMaterial = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.7,
+      opacity: 0.5,
       color: "#3d5050"
     }),
     []
@@ -771,7 +771,7 @@ const ButtonComponents = ({
   const buttonTop1Material = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.5,
+      opacity: 0.4,
       color: "#3d5050"
     }),
     []
@@ -779,7 +779,7 @@ const ButtonComponents = ({
   const buttonTop2Material = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.5,
+      opacity: 0.4,
       color: "#3d5050"
     }),
     []
@@ -787,7 +787,7 @@ const ButtonComponents = ({
   const buttonTop3Material = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.5,
+      opacity: 0.4,
       color: "#3d5050"
     }),
     []
@@ -795,7 +795,7 @@ const ButtonComponents = ({
   const buttonTop4Material = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.5,
+      opacity: 0.4,
       color: "#3d5050"
     }),
     []
@@ -803,7 +803,7 @@ const ButtonComponents = ({
   const buttonTop5Material = React.useMemo(
     () => new THREE__namespace.MeshStandardMaterial({
       transparent: true,
-      opacity: 0.5,
+      opacity: 0.4,
       color: "#3d5050"
     }),
     []
