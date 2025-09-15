@@ -84,7 +84,7 @@ const JoystickComponents = (props: EcctrlJoystickProps) => {
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.6,
+        opacity: 0.2,
         color: "#ffffff",
       }),
     []
@@ -102,7 +102,7 @@ const JoystickComponents = (props: EcctrlJoystickProps) => {
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.6,
         color: "#3d5050",
       }),
     []
@@ -281,7 +281,7 @@ const ButtonComponents = ({
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.6,
+        opacity: 0.2,
         color: "#ffffff",
       }),
     []
@@ -290,7 +290,7 @@ const ButtonComponents = ({
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.6,
         color: "#3d5050",
       }),
     []
@@ -299,7 +299,7 @@ const ButtonComponents = ({
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.6,
         color: "#3d5050",
       }),
     []
@@ -308,7 +308,7 @@ const ButtonComponents = ({
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.6,
         color: "#3d5050",
       }),
     []
@@ -317,7 +317,7 @@ const ButtonComponents = ({
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.6,
         color: "#3d5050",
       }),
     []
@@ -326,7 +326,7 @@ const ButtonComponents = ({
     () =>
       new THREE.MeshBasicMaterial({
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.6,
         color: "#3d5050",
       }),
     []

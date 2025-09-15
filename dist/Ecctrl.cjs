@@ -595,7 +595,7 @@ const JoystickComponents = (props) => {
   const joystickBaseMaterial = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.6,
+      opacity: 0.2,
       color: "#ffffff"
     }),
     []
@@ -611,7 +611,7 @@ const JoystickComponents = (props) => {
   const joystickHandleMaterial = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -763,7 +763,7 @@ const ButtonComponents = ({
   const buttonBaseMaterial = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.6,
+      opacity: 0.2,
       color: "#ffffff"
     }),
     []
@@ -771,7 +771,7 @@ const ButtonComponents = ({
   const buttonTop1Material = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -779,7 +779,7 @@ const ButtonComponents = ({
   const buttonTop2Material = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -787,7 +787,7 @@ const ButtonComponents = ({
   const buttonTop3Material = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -795,7 +795,7 @@ const ButtonComponents = ({
   const buttonTop4Material = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -803,7 +803,7 @@ const ButtonComponents = ({
   const buttonTop5Material = React.useMemo(
     () => new THREE__namespace.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []

@@ -576,7 +576,7 @@ const JoystickComponents = (props) => {
   const joystickBaseMaterial = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.6,
+      opacity: 0.2,
       color: "#ffffff"
     }),
     []
@@ -592,7 +592,7 @@ const JoystickComponents = (props) => {
   const joystickHandleMaterial = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -744,7 +744,7 @@ const ButtonComponents = ({
   const buttonBaseMaterial = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.6,
+      opacity: 0.2,
       color: "#ffffff"
     }),
     []
@@ -752,7 +752,7 @@ const ButtonComponents = ({
   const buttonTop1Material = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -760,7 +760,7 @@ const ButtonComponents = ({
   const buttonTop2Material = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -768,7 +768,7 @@ const ButtonComponents = ({
   const buttonTop3Material = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -776,7 +776,7 @@ const ButtonComponents = ({
   const buttonTop4Material = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
@@ -784,7 +784,7 @@ const ButtonComponents = ({
   const buttonTop5Material = useMemo(
     () => new THREE.MeshBasicMaterial({
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.6,
       color: "#3d5050"
     }),
     []
